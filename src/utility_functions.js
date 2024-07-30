@@ -25,7 +25,7 @@ export const drawEtch2 = (listOfCoordinates) => {
 	}
 };
 
-export const squareify = (x,y,size=10) => {
+export function squareify = (x,y,size=10) => {
 	return [x-size, y-size, x+size, y+size];
 };
 
